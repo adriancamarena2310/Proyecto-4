@@ -11,4 +11,16 @@ export class UncommonPageComponent implements OnInit {
   ngOnInit() {
   }
 
+  // i18nSelect
+  public name: string = "Adrian";
+  public gender: 'male' | 'female' = 'male';
+  public invitacionMap = {
+    male: "invitarlo",
+    female: "invitarla"
+  }
+
+  chandeClient(): void {
+     this.name = "Melissa";
+     this.gender = "female";
+  }
 }
