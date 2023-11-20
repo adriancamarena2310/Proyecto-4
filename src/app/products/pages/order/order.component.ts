@@ -11,4 +11,10 @@ export class OrderComponent implements OnInit {
   ngOnInit() {
   }
 
+  public isUpperCase: boolean = false;
+
+  toggleUpperCase():void{
+    this.isUpperCase = !this.isUpperCase;
+  }
+
 }
