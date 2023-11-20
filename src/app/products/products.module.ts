@@ -7,6 +7,7 @@ import { NumbersPageComponent } from './pages/numbersPage/numbersPage.component'
 import { BasicsPageComponent } from './pages/basicsPage/basicsPage.component';
 import { OrderComponent } from './pages/order/order.component';
 import { ToggleCasePipe } from './pipes/roggle-case.pipe';
+import { CanFlyPipe } from './pipes/canFly.pipe';
 
 @NgModule({
   imports: [
@@ -20,6 +21,7 @@ import { ToggleCasePipe } from './pipes/roggle-case.pipe';
     BasicsPageComponent,
     OrderComponent,
     ToggleCasePipe,
+    CanFlyPipe,
   ]
 })
 export class ProductsModule { }
