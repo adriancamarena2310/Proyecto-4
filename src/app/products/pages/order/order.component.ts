@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Color, Hero } from '../../interfaces/hero.interface';
 
 @Component({
   selector: 'products-order',
@@ -16,5 +17,31 @@ export class OrderComponent implements OnInit {
   toggleUpperCase():void{
     this.isUpperCase = !this.isUpperCase;
   }
+
+  public heroes: Hero[] = [
+    {
+      name:"superman",
+      canFly: true,
+      color: Color.red
+    },{
+      name:"Batman",
+      canFly: false,
+      color: Color.black
+    },{
+      name:"Robin",
+      canFly: false,
+      color: Color.red
+    },
+    {
+      name:"Lnterna Verde",
+      canFly: true,
+      color: Color.gren
+    },
+    {
+      name:"Daredevil",
+      canFly: false,
+      color: Color.red
+    }
+  ]
 
 }
