@@ -8,10 +8,6 @@ import { PrimeNGConfig } from 'primeng/api';
 })
 export class AppComponent {
 
-  constructor( private primengConfig: PrimeNGConfig ) {}
-
-  ngOnInit() {
-      this.primengConfig.ripple = true;
-  }
+  public title = 'adRiAn cAmAreNa'
 
 }
