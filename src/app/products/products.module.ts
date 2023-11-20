@@ -5,6 +5,7 @@ import { PrimeNGModule } from '../prime-ng/prime-ng.module';
 import { UncommonPageComponent } from './pages/uncommonPage/uncommonPage.component';
 import { NumbersPageComponent } from './pages/numbersPage/numbersPage.component';
 import { BasicsPageComponent } from './pages/basicsPage/basicsPage.component';
+import { OrderComponent } from './pages/order/order.component';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { BasicsPageComponent } from './pages/basicsPage/basicsPage.component';
   declarations: [
     UncommonPageComponent,
     NumbersPageComponent,
-    BasicsPageComponent
+    BasicsPageComponent,
+    OrderComponent
   ]
 })
 export class ProductsModule { }
