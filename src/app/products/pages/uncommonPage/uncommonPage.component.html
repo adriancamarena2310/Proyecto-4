@@ -16,12 +16,23 @@
     </p>
 
     <p-button (click)="chandeClient()"
-   label="cambiar persona"></p-button>
+   label="cambiar persona">
+  </p-button>
+
   </p-fieldset>
 </div>
 
 <div class="col-12 md:col-6">
   <p-fieldset legend="iq8nPlural" [toggleable]="true">
+
+    <p>
+      Actualmente
+      {{ clients.length | i18nPlural:clientMap }}
+    </p>
+
+    <p-button (click)="deleteClient()"
+      label="Borrar cliente">
+  </p-button>
 
   </p-fieldset>
 </div>
