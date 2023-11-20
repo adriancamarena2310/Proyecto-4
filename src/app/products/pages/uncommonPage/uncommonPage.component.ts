@@ -37,4 +37,11 @@ export class UncommonPageComponent implements OnInit {
     this.clients.shift();
   }
 
+  // keyValue pipe
+  public person = {
+    name: 'Adrian',
+    age: '17',
+    address: 'Ottawa, Canada'
+  }
+
 }
