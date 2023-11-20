@@ -11,4 +11,7 @@ export class NumbersPageComponent implements OnInit {
   ngOnInit() {
   }
 
+  public totalSells: number = 2342132.3121;
+  public percent: number = 0.2342132;
+
 }
