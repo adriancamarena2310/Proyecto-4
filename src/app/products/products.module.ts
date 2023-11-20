@@ -8,6 +8,7 @@ import { BasicsPageComponent } from './pages/basicsPage/basicsPage.component';
 import { OrderComponent } from './pages/order/order.component';
 import { ToggleCasePipe } from './pipes/roggle-case.pipe';
 import { CanFlyPipe } from './pipes/canFly.pipe';
+import { SortByPipe } from './pipes/sortBy.pipe';
 
 @NgModule({
   imports: [
@@ -22,6 +23,7 @@ import { CanFlyPipe } from './pipes/canFly.pipe';
     OrderComponent,
     ToggleCasePipe,
     CanFlyPipe,
+    SortByPipe,
   ]
 })
 export class ProductsModule { }
