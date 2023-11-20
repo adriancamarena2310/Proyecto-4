@@ -13,6 +13,7 @@ export class OrderComponent implements OnInit {
   }
 
   public isUpperCase: boolean = false;
+  public orderBy?: keyof Hero;
 
   toggleUpperCase():void{
     this.isUpperCase = !this.isUpperCase;
@@ -43,5 +44,9 @@ export class OrderComponent implements OnInit {
       color: Color.red
     }
   ]
+
+  changeOrder( value: keyof Hero){
+     this.orderBy = value;
+  }
 
 }
